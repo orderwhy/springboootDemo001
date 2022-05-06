@@ -1,0 +1,21 @@
+server:
+  port: 8090
+
+
+mycar:
+  brand: cadsdfdsf
+  price: 35.56
+
+#spring:
+#  banner:
+#    image:
+#      location: 2222.jpg
+#spring:
+#  mvc:
+#    static-path-pattern: /res/**
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+
